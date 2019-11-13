@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="scripts/ipages.min.css" />
+    <!-- /end css -->
+    <title>Portfolio | Perspective Lines</title>
+  </head>
+  <body>
+    <!-- flipbook markup -->
+    <div id="flipbook">
+      <div data-ipgs-image="img/akansha-residence/1.png"></div>
+      <div data-ipgs-image="img/akansha-residence/2.png"></div>
+      <div data-ipgs-image="img/akansha-residence/3.png"></div>
+      <div data-ipgs-image="img/akansha-residence/4.png"></div>
+      <div data-ipgs-image="img/akansha-residence/5.png"></div>
+      <div data-ipgs-image="img/akansha-residence/6.png"></div>
+      <div data-ipgs-image="img/akansha-residence/7.png"></div>
+      <div data-ipgs-image="img/akansha-residence/8.png"></div>
+      <div data-ipgs-image="img/akansha-residence/9.png"></div>
+      <div data-ipgs-image="img/akansha-residence/10.png"></div>
+      <div data-ipgs-image="img/akansha-residence/11.png"></div>
+      <div data-ipgs-image="img/akansha-residence/12.png"></div>
+      <div data-ipgs-image="img/bagri-residence/1.png"></div>
+      <div data-ipgs-image="img/bagri-residence/2.png"></div>
+      <div data-ipgs-image="img/bagri-residence/3.png"></div>
+      <div data-ipgs-image="img/bagri-residence/4.png"></div>
+      <div data-ipgs-image="img/bagri-residence/5.png"></div>
+      <div data-ipgs-image="img/bagri-residence/6.png"></div>
+      <div data-ipgs-image="img/bagri-residence/7.png"></div>
+      <div data-ipgs-image="img/bagri-residence/8.png"></div>
+      <div data-ipgs-image="img/maurya-residence/1.png"></div>
+      <div data-ipgs-image="img/maurya-residence/2.png"></div>
+      <div data-ipgs-image="img/maurya-residence/3.png"></div>
+      <div data-ipgs-image="img/maurya-residence/4.png"></div>
+      <div data-ipgs-image="img/maurya-residence/5.png"></div>
+      <div data-ipgs-image="img/maurya-residence/6.png"></div>
+      <div data-ipgs-image="img/sharief-residence/1.png"></div>
+      <div data-ipgs-image="img/sharief-residence/2.png"></div>
+      <div data-ipgs-image="img/sharief-residence/3.png"></div>
+      <div data-ipgs-image="img/sharief-residence/4.png"></div>
+      <div data-ipgs-image="img/sharief-residence/5.png"></div>
+      <div data-ipgs-image="img/sharief-residence/6.png"></div>
+      <div data-ipgs-image="img/sharief-residence/7.png"></div>
+      <div data-ipgs-image="img/sharief-residence/8.png"></div>
+      <div data-ipgs-image="img/sharief-residence/9.png"></div>
+      <div data-ipgs-image="img/sharief-residence/10.png"></div>
+      <div data-ipgs-image="img/sharief-residence/11.png"></div>
+      <div data-ipgs-image="img/sharief-residence/12.png"></div>
+      <div data-ipgs-image="img/sharief-residence/13.png"></div>
+      <div data-ipgs-image="img/sharief-residence/14.png"></div>
+      <div data-ipgs-image="img/sharief-residence/15.png"></div>
+      <div data-ipgs-image="img/sharief-residence/16.png"></div>
+    </div>
+    <!-- /end flipbook markup -->
+    <!-- scripts-section -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="scripts/pdf.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.ipages.min.js"></script>
+    <!-- /end scripts-section -->
+
+    <script>
+      $(document).ready(function() {
+        var options = {
+          pageWidth: 624, // Sets the book page width in px
+          pageHeight: 440,
+          responsive: true,
+          autoFit: true,
+          padding: 10
+        };
+        $("#flipbook").ipages(options);
+      });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139506610-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-139506610-1");
+    </script>
+  </body>
+</html>
